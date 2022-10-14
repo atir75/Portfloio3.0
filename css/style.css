@@ -9,6 +9,7 @@
 body{
     line-height: 1.5;
     font-size: 16px;
+    font-family: 'Poppins' sans-serif;
 }
 
 *{
@@ -47,10 +48,16 @@ ul{
     top: 0;
     padding: 30px;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     z-index: 10;
 }
 
 .aside .logo
 {
-    
+    position: absolute;
+    top: 50px;
+    font-size: 30px;
+    text-transform: capitalize;
 }
