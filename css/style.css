@@ -124,3 +124,8 @@ ul{
     color: var(--text-black-900);
     padding: 5px 15px;
 }
+
+.aside .nav li a.active
+{
+    color: var(--skin-color);
+}
