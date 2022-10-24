@@ -53,13 +53,16 @@ ul{
 {
     max-width: 1100px;
     width: 100%;
-    background-color: red;
     margin: auto;
 }
 
 .row
 {
     display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+    position: relative;
 }
 .aside{
     width: 270px;
@@ -203,6 +206,13 @@ ul{
 }
 
 /* HOME */
+.home
+{
+    min-height: 100vh;
+    display: flex;
+    color: var(--bg-black-900);
+}
+
 .home .home-img img
 {
     height: 400px;
