@@ -59,7 +59,7 @@ ul{
 
 .row
 {
-    
+    display: flex;
 }
 .aside{
     width: 270px;
