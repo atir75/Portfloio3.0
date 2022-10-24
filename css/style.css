@@ -210,7 +210,19 @@ ul{
 {
     min-height: 100vh;
     display: flex;
-    color: var(--bg-black-900);
+    color: var(--text-black-900);
+}
+
+.home .home-img img 
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+}
+
+.home .home-img
+{
+    flex: 0 0 40%;
+    
 }
 
 .home .home-img img
