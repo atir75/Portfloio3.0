@@ -34,13 +34,13 @@ ul{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 270px;
     padding: 0 30px;
-    top: 0;
-    right: 0;
-    z-index: 0;
     opacity: 1;
+}
+
+.main-content
+{
+    padding-left: 270px;
 }
 
 .padd-15
@@ -120,7 +120,7 @@ ul{
 .aside .logo a span
 {
     font-family: 'Clicker Script', cursive;
-    font-family: 40px;
+    font-size: 40px;
 }
 
 .aside .logo a::before
@@ -275,7 +275,6 @@ h3.my-profession
     max-width: 40%;
     text-align: center;
     position: relative;
-    background: red;
 }
 
 .home-img::after
