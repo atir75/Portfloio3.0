@@ -219,6 +219,12 @@ ul{
     max-width: 60%;
 }
 
+h3.hello
+{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
 .home .home-img
 {
     flex: 0 0 40%;
