@@ -73,11 +73,17 @@ ul{
     max-width: 100%;
 }
 
+.secion-title h2::before
+{
+    content: '';
+}
+
 .section-title h2 
 {
     font-size: 40px;
     color: var(--text-black-900);
     font-weight: 700;
+    position: relative;
 }
 .row
 {
