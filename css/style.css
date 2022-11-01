@@ -382,4 +382,7 @@ h3.my-profession
     color: var(--skin-color);
 }
 
-.about 
+.about .about-content .about-text p 
+{
+    
+}
